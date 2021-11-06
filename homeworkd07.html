@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Signup web page</title>
+    <link rel="stylesheet" href="pageall.css">
+
+</head>
+<body>
+    
+        <h2> Enter details of your account</h2>
+        <hr>
+        <form action="#" id="signup">
+            <fieldset>
+                 <pre>
+                 <div>
+                     <label for="">Fisrt Name</label>
+                     <input type="text" name="fisrt" id="fisrt">
+                 </div>
+                 <div>
+                     <label for="">Last Name</label>
+                     <input type="text" name="last" id="last">
+                 </div>
+                 <div>
+                     <label for="">email</label>
+                     <input type="text" name="mail" id="mail">
+                 </div>
+                 <div>
+                        <label for="quantity">age:</label>
+                        <input type="number" id="quantity" name="quantity" min="18" max="30">
+                        
+                 </div>
+                 <div>
+                  <label for="are your employed">are your employed</label>
+                  <input type="radio"name="are your employed" id="are your employed" value="yes">yes
+                  <input type="radio" name="are your employed" id="are you employed" value="no">no   
+                 </div>
+                 <div>
+                     <input type="submit" value="ok">
+                     <input type="reset" value="cancel">
+                 </div>
+                 </pre>
+            </fieldset>
+
+        </form> 
+    
+    
+</body>
+<script>
+    //lap trinh cho su kien bam nut submit cua form co id="form-login"
+    document.getElementById("signup").onsubmit=function(){
+        //lay gia tri cua o nhap username co id="user"
+        var Fist = document.getElementById("fisrt").value;
+        //lay gia tri cua o nhap password co id="pass"
+        var Last = document.getElementById("last").value;
+    
+        //kiem tra username
+        if(Fist!="FPT"){
+            alert("Họ không đúng, vui lòng nhập lại !!!");
+            document.getElementById("fisrt").focus(); //nhay cursor ve o nhap user
+            return false;   //ko chuyen trang action
+        }
+    
+    
+    
+        //kiem tra password
+        if(Last!="Aptech"){
+            alert("Tên không đúng ko, vui lòng nhập lại !!!");
+            document.getElementById("last").focus(); //nhay cursor ve o nhap pass
+            return false;   //ko chuyen trang action
+        }
+    
+    
+    }
+    
+    </script>
+    </html> 
