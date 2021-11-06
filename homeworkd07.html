@@ -14,7 +14,7 @@
         <hr>
         <form action="#" id="signup">
             <fieldset>
-                 <pre>
+                 
                  <div>
                      <label for="">Fisrt Name</label>
                      <input type="text" name="fisrt" id="fisrt">
@@ -41,7 +41,7 @@
                      <input type="submit" value="ok">
                      <input type="reset" value="cancel">
                  </div>
-                 </pre>
+                 
             </fieldset>
 
         </form> 
@@ -68,8 +68,10 @@
         //kiem tra password
         if(Last!="Aptech"){
             alert("Tên không đúng ko, vui lòng nhập lại !!!");
-            document.getElementById("last").focus(); //nhay cursor ve o nhap pass
-            return false;   //ko chuyen trang action
+           
+        }
+        else{ 
+            alert("chúc mừng bạn đăng nhập thành công!!!");
         }
     
     
