@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/gallary.css">
+
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: bold;
+}
+        header{
+            margin-top: 1rem;
+        }
+        body{
+            background-color: rgb(255, 187, 198);
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="wraper container" >
+            <div class="header-content row1">
+                <div class="header-logo">
+                    <img src="img/logosnacks.jpg" alt="">
+                </div>
+                <div class="header-nav">
+                    <ul>
+                        <li> <a href="index.html">Home</a></li>
+                        <li> <a href="Snack/Index/Index.html">Snacks</a></li>
+                        <li> <a href="about.html">About Us</a></li>
+                        <li> <a href="#">Gallery</a></li>
+                        <li> <a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>     
+    </header>
+
+    <Section>
+        <ul>
+           <li class="list active" data-filter="all">ALL</li>
+           <li class="list" data-filter="healthysnacks">Healthy snacks</li>
+           <li class="list" data-filter="snacksforkids">Snacks for kids</li>
+           <li class="list" data-filter="easyonstomachsnacks">Easy on stomach snacks</li>
+           <li class="list" data-filter="smoothies">Smoothies</li> 
+        </ul> <br>
+            <div class="product">
+            <div class="itemBox healthysnacks"> <img src="img/hn1.jpg"> </div>
+            <div class="itemBox snacksforkids"> <img src="img/sfk1.jpg"> </div>
+            <div class="itemBox easyonstomachsnacks"> <img src="img/es1.jpg"> </div>
+            <div class="itemBox smoothies"> <img src="img/smt1.jpg"> </div>
+
+            <div class="itemBox healthysnacks"> <img src="img/hn2.jpg"> </div>
+            <div class="itemBox snacksforkids"> <img src="img/sfk2.jpg"> </div>
+            <div class="itemBox easyonstomachsnacks"> <img src="img/es2.jpg"> </div>
+            <div class="itemBox smoothies"> <img src="img/smt2.jpg"> </div>
+
+            <div class="itemBox healthysnacks"> <img src="img/hn3.jpg"> </div>
+            <div class="itemBox snacksforkids"> <img src="img/sfk3.jpg"> </div>
+            <div class="itemBox easyonstomachsnacks"> <img src="img/es3.jpg"> </div>
+            <div class="itemBox smoothies"> <img src="img/smt3.jpg"> </div>
+
+            <div class="itemBox healthysnacks"> <img src="img/hn4.jpg"> </div>
+            <div class="itemBox snacksforkids"> <img src="img/sfk4.jpg"> </div>
+            <div class="itemBox easyonstomachsnacks"> <img src="img/es4.jpg"> </div>
+            <div class="itemBox smoothies"> <img src="img/smt4.jpg"> </div>
+
+            <div class="itemBox healthysnacks"> <img src="img/hn5.jpg"> </div>
+            <div class="itemBox snacksforkids"> <img src="img/sfk5.jpg"> </div>
+            <div class="itemBox easyonstomachsnacks"> <img src="img/es5.jpg"> </div>
+            <div class="itemBox smoothies"> <img src="img/smt5.jpg"> </div>
+
+            <div class="itemBox healthysnacks"> <img src="img/hn6.jpg"> </div>
+            <div class="itemBox snacksforkids"> <img src="img/sfk6.jpg"> </div>
+            <div class="itemBox easyonstomachsnacks"> <img src="img/es6.jpg"> </div>
+            <div class="itemBox smoothies"> <img src="img/smt6.jpg"> </div>
+
+            <div class="itemBox healthysnacks"> <img src="img/hn7.jpg"> </div>
+            <div class="itemBox snacksforkids"> <img src="img/sfk7.jpg"> </div>
+            <div class="itemBox easyonstomachsnacks"> <img src="img/es7.jpg"> </div>
+            <div class="itemBox smoothies"> <img src="img/smt7.jpg"> </div>
+
+            <div class="itemBox healthysnacks"> <img src="img/hn8.jpg"> </div>
+            <div class="itemBox snacksforkids"> <img src="img/sfk8.jpg"> </div>
+            <div class="itemBox easyonstomachsnacks"> <img src="img/es8.jpg"> </div>
+            <div class="itemBox smoothies"> <img src="img/smt8.jpg"> </div>
+
+          
+
+        </div>
+    </Section>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.list').click(function(){
+            const value = $(this).attr('data-filter');
+            if (value == 'all'){
+                $('.itemBox').show('1000');
+            }
+            else{
+                $('.itemBox').not('.'+value).hide('1000');
+                $('.itemBox').filter('.'+value).show('1000');
+            }
+
+        })
+        // add active class on selected item
+
+        $('.list').click(function(){
+            $(this).addClass('active').siblings().removeClass('active');
+        })
+    })
+
+</script>
+<footer>
+        Phone: (+84) 38 583 4637 <br>
+        Address: August Revolution, Ward 11, District 3, Ho Chi Minh City.<br>
+    <div class="icon">
+        Learn more about us: 
+        <a href="https://www.facebook.com/groups/279802560639210/" target="blank"> <i class="fab fa-facebook-square"> </i></a>
+        <a href="https://www.youtube.com/" target="blank"> <i class="fab fa-youtube"> </i> </a> 
+        <a href="https://twitter.com/" target="blank"> <i class="fab fa-twitter"> </i> </a>
+    </div>
+   &copy; 2022 Copyright By Biet Doi Sieu Anh Hung, Gruop 1, Aptech HCMC.
+</footer>
+</body>
+</html>

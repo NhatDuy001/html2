@@ -1,36 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Quick snacks</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
- <link rel="stylesheet" href="style.css">
+    <title>Quick snacks</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+      .carousel-caption{
+          color: rgb(235, 235, 241);
+          bottom: 15rem;
+          left: 5%;
+          text-align: left;
+          text-shadow: 2px 2px 2px rgb(37, 37, 37);
+      }
+      .carousel-inner img {
+          width: auto;
+          height: auto;
+      }
+      header{
+          position: fixed;
+      }
+    </style>
+
 </head>
 <body>
 
     <header>
-<div class="wraper">
-          <div class="header-content row">
+<div class="wraper container" >
+          <div class="header-content row1">
               <div class="header-logo">
                   <img src="img/logosnacks.jpg" alt="">
               </div>
               <div class="header-nav">
                   <ul>
                       <li> <a href="#">Home</a></li>
-                      <li> <a href="snacks.html">Snacks</a></li>
-                      <li> <a href="">feedback</a></li>
-                      <li> <a href="">AboutUs</a></li>
-                      <li> <a href="">Contact</a></li>
+                      <li> <a href="Snack/Index/Index.html">Snacks</a></li>
+                      <li> <a href="about.html">About Us</a></li>
+                      <li> <a href="Gallery.html">Gallery</a></li>
+                      <li> <a href="contact.html">Contact</a></li>
                       
                   </ul>
+                
+                 
               </div>
           </div>
+        
       </div>
-  
+      
      
     </header>
 
@@ -43,6 +65,7 @@
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
+   
   </ul>
   
   <!-- The slideshow -->
@@ -50,22 +73,24 @@
     <div class="carousel-item active">
       <img src="img/anh30-a.jpg" alt="Los Angeles" width="1100" height="500">
       <div class="carousel-caption">
-       <h3>Không chỉ ngon – mà còn phải đẹp</h3>
-        
+        <h2> Simple Food Recipes For Everyone</h2>
       </div> 
     </div>
     
     <div class="carousel-item">
-      <img src="img/anh32.jpg" alt="Chicago" width="1100" height="500">
+      <img src="img/anh30_d.jpg" alt="Chicago" width="1100" height="500">
       <div class="carousel-caption">
-        <h3> Đơn giản nhưng Đủ Đầy</h3>
+         <h2>Perfect slice, perfect taste</h2>
          
        </div> 
     </div>
     <div class="carousel-item">
-      <img src="img/anh30_d.jpg" alt="New York" width="1100" height="500">
+      <img src="img/anh32.jpg" alt="Chicago" width="1100" height="500">
+      <div class="carousel-caption">
+       <h2>Eat Nutritious Snacks and Relax</h2>
+       </div> 
     </div>
-  </div>
+  
   
   <!-- Left and right controls -->
   <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
@@ -92,6 +117,7 @@
       $(".item3").click(function(){
         $("#myCarousel").carousel(2);
       });
+  
         
       // Enable Carousel Controls
       $(".carousel-control-prev").click(function(){

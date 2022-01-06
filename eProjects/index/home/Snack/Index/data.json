@@ -1,0 +1,336 @@
+{
+    "hs": [
+        {
+            "name": "Baked rice paper",
+            "image": "Baked_rice_paper.jpg",
+            "url":"../Web/A/Baked_rice_paper.html"
+        },
+        {
+            "name": "Banana Ice-Cream",
+            "image": "Banana_Ice_Cream.jpg",
+            "url":"../Web/A/Banana_Ice_Cream.html"
+        },
+        {
+            "name": "Cheese sticks",
+            "image": "Cheese_sticks.jpg",
+            "url":"../Web/A/Cheese_sticks.html"
+        },
+        {
+            "name": "Coconut jelly",
+            "image": "Coconut_jelly.jpg",
+            "url":"../Web/A/Coconut_jelly.html"
+        },
+        {
+            "name": "Corn jelly",
+            "image": "Corn_jelly.jpg",
+            "url":"../Web/A/Corn_jelly.html"
+        },
+        {
+            "name": "Dry beef",
+            "image": "Dry_beef.jpg",
+            "url":"../Web/A/Dry_beef.html"
+        },
+        {
+            "name": "Flan",
+            "image": "Flan.jpg",
+            "url":"../Web/A/Flan.html"
+        },
+        {
+            "name": "Grilled chicken eggs",
+            "image": "Grilled_chicken_eggs.jpg",
+            "url":"../Web/A/Grilled_chicken_eggs.html"
+        },
+        {
+            "name": "Grilled spring rolls",
+            "image": "Grilled_spring_rolls.jpg",
+            "url":"../Web/A/Grilled_spring_rolls.html"
+        },
+        {
+            "name": "Jelly yogurt",
+            "image": "Jelly_yogurt.jpg",
+            "url":"../Web/A/Jelly_yogurt.html"
+        },
+        {
+            "name": "Pillow cake",
+            "image": "Pillow_cake.png",
+            "url":"../Web/A/Pillow_cake.html"
+        },
+        {
+            "name": "Popcorn",
+            "image": "Popcorn.jpg",
+            "url":"../Web/A/Popcorn.html"
+        },
+        {
+            "name": "Sweet potato cocoon",
+            "image": "Sweet_potato_cocoon.jpg",
+            "url":"../Web/A/Sweet_potato_cocoon.html"
+        },
+        {
+            "name": "Sweet potato tea",
+            "image": "Sweet_potato_tea.jpg",
+            "url":"../Web/A/Sweet_potato_tea.html"
+        },
+        {
+            "name": "Tokbokki",
+            "image": "Tokbokki.jpg",
+            "url":"../Web/A/Tokbokki.html"
+        },
+        {
+            "name": "Yogurt cake",
+            "image": "Yogurt_cake.jpg",
+            "url":"../Web/A/Yogurt_cake.html"
+        }
+    ],
+
+    "sfk": [
+        {
+            "name": "Banana bread",
+            "image": "Banana_bread.jpg",
+            "url":"../Web/B/Banana_bread.html"
+        },
+        {
+            "name": "Butter biscuits",
+            "image": "Butter_biscuits.jpg",
+            "url":"../Web/B/Butter_biscuits.html"
+        },
+        {
+            "name": "Cereal Calbee",
+            "image": "Cereal_Calbee.jpg",
+            "url":"../Web/B/Cereal_Calbee.html"
+        },
+        {
+            "name": "Cottage cheesemai",
+            "image": "Cheese.jpg",
+            "url":"../Web/B/Cheese.html"
+        },
+        {
+            "name": "Dried banana with honey",
+            "image": "Dried_banana_with_honey.jpg",
+            "url":"../Web/B/Dried_banana_with_honey.html"
+        },
+        {
+            "name": "Energy balls",
+            "image": "Energy_balls.jpg",
+            "url":"../Web/B/Energy_balls.html"
+        },
+        {
+            "name": "Fruit ice cream",
+            "image": "Fruit_ice_cream.jpg",
+            "url":"../Web/B/Fruit_ice_cream.html"
+        },
+        {
+            "name": "Kale Snack",
+            "image": "Kale_Snack.jpg",
+            "url":"../Web/B/Kale_Snack.html"
+        },
+        {
+            "name": "Vegetable Oatmeal Porridge",
+            "image": "Oatmeal.jpg",
+            "url":"../Web/B/Oatmeal.html"
+        },
+        {
+            "name": "Pickles",
+            "image": "Pickles.jpg",
+            "url":"../Web/B/Pickles.html"
+        },
+        {
+            "name": "Pita cake",
+            "image": "Pita_cake.jpg",
+            "url":"../Web/B/Pita_cake.html"
+        },
+        {
+            "name": "Pizza Toast",
+            "image": "Pizza_toast.jpg",
+            "url":"../Web/B/Pizza_toast.html"
+        },
+        {
+            "name": "Popcorn",
+            "image": "Popcorn.jpg",
+            "url":"../Web/B/Popcorn.html"
+        },
+        {
+            "name": "Quesadilla",
+            "image": "Quesadilla.jpg",
+            "url":"../Web/B/Quesadilla.html"
+        },
+        {
+            "name": "Avocado egg salad",
+            "image": "Salad.jpg",
+            "url":"../Web/B/Salad.html"
+        },
+        {
+            "name": "Thinly sliced cinnamon apple",
+            "image": "Thinly_sliced_cinnamon_apple.jpg",
+            "url":"../Web/B/Thinly_sliced_cinnamon_apple.html"
+        }
+    ],
+        
+    "easy": [
+        {
+            "name": "Chicken cooked with galangal",
+            "image": "Chicken_galangal.png",
+            "url":"../Web/C/Chicken_galangal.html"
+        },
+        {
+            "name": "Braised chicken with ginger",
+            "image": "Chicken_ginger.jpg",
+            "url":"../Web/C/Chicken_ginger.html"
+        },
+        {
+            "name": "Chicken stew",
+            "image": "Chicken_stew.jpg",
+            "url":"../Web/C/Chicken_stew.html"
+        },
+        {
+            "name": "Dragon fruit beams",
+            "image": "Dragon_fruit.jpg",
+            "url":"../Web/C/Dragon_fruit.html"
+        },
+        {
+            "name": "Eel cooked with ginseng",
+            "image": "Eel.jpg",
+            "url":"../Web/C/Eel.html"
+        },
+        {
+            "name": "Lotus seed porridge",
+            "image": "Lotus_seed_porridge.jpg",
+            "url":"../Web/C/Lotus_seed_porridge.html"
+        },
+        {
+            "name": "Longan lotus seed tea",
+            "image": "Lotus_seed.jpg",
+            "url":"../Web/C/Lotus_seed.html"
+        },
+        {
+            "name": "Millet porridge",
+            "image": "Millet_porridge.jpg",
+            "url":"../Web/C/Millet_porridge.html"
+        },
+        {
+            "name": "Pan-fried Salmon",
+            "image": "Pan_fried_Salmon.jpg",
+            "url":"../Web/C/Pan_fried_Salmon.html"
+        },
+        {
+            "name": "Papaya rib soup",
+            "image": "Papaya_rib_soup.jpg",
+            "url":"../Web/C/Papaya_rib_soup.html"
+        },
+        {
+            "name": "Papaya smoothie",
+            "image": "Papaya_smoothie.jpg",
+            "url":"../Web/C/Papaya_smoothie.html"
+        },
+        {
+            "name": "Soybean stewed pork leg",
+            "image": "Pork_leg_stew.jpg",
+            "url":"../Web/C/Pork_leg_stew.html"
+        },
+        {
+            "name": "Mushroom stewed pork leg",
+            "image": "Pork_leg.jpg",
+            "url":"../Web/C/Pork_leg.html"
+        },
+        {
+            "name": "Pork stomach cooked...",
+            "image": "Pork_stomach_tangerine.jpg",
+            "url":"../Web/C/Pork_stomach_tangerine.html"
+        },
+        {
+            "name": "Boiled sweet potato",
+            "image": "Sweet_potato.jpg",
+            "url":"../Web/C/Sweet_potato.html"
+        },
+        {
+            "name": "Pickled Bananas",
+            "image": "Yogurt_banana.jpg",
+            "url":"../Web/C/Yogurt_banana.html"
+        }
+    ],
+    "smo": [
+        {
+            "name": "Apple lemon smoothie",
+            "image": "Apple_lemon.jpg",
+            "url":"../Web/D/Apple_lemon.html"
+        },
+        {
+            "name": "Chocolate Banana Smoothie",
+            "image": "Banana_chocolate.jpg",
+            "url":"../Web/D/Banana_chocolate.html"
+        },
+        {
+            "name": "Banana smoothie",
+            "image": "Banana.jpg",
+            "url":"../Web/D/Banana.html"
+        },
+        {
+            "name": "Avocado smoothie",
+            "image": "Butter.jpg",
+            "url":"../Web/D/Butter.html"
+        },
+        {
+            "name": "Pumpkin and carrot smoothie",
+            "image": "Carrot_pumpkin.jpg",
+            "url":"../Web/D/Carrot_pumpkin.html"
+        },
+        {
+            "name": "Grape smoothie",
+            "image": "Grape.jpg",
+            "url":"../Web/D/Grape.html"
+        },
+        {
+            "name": "Green bean smoothie - pennywort",
+            "image": "Green_beans_pennywort.jpg",
+            "url":"../Web/D/Green_B_P.html"
+        },
+        {
+            "name": "Jackfruit smoothie",
+            "image": "Jack_fruit.jpg",
+            "url":"../Web/D/Jack_fruit.html"
+        },
+        {
+            "name": "Mango smoothie",
+            "image": "Mango.jpg",
+            "url":"../Web/D/Mango.html"
+        },
+        {
+            "name": "Orange smoothie - Yogurt",
+            "image": "Orange_yogurt.jpg",
+            "url":"../Web/D/Orange_yogurt.html"
+        },
+        {
+            "name": "Orange smoothie",
+            "image": "Orange.jpg",
+            "url":"../Web/D/Orange.html"
+        },
+        {
+            "name": "Pineapple smoothie",
+            "image": "Pineapple.jpg",
+            "url":"../Web/D/Pineapple.html"
+        },
+        {
+            "name": "Soursop smoothie",
+            "image": "Soursop.jpg",
+            "url":"../Web/D/Soursop.html"
+        },
+        {
+            "name": "Strawberry smoothie",
+            "image": "Strawberry.jpg",
+            "url":"../Web/D/Strawberry.html"
+        },
+        {
+            "name": "Tomato juice",
+            "image": "Tomato.jpg",
+            "url":"../Web/D/Tomato.html"
+        },
+        {
+            "name": "Watermelon smoothie",
+            "image": "Watermelon.jpg",
+            "url":"../Web/D/Watermelon.html"
+        }
+    ]
+  
+}
+
+
+    
